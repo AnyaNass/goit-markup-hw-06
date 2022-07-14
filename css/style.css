@@ -704,15 +704,13 @@ body {
 	fill: var(--white);
 }
 
-.subscribe-form {
+.subscribe {
 	margin: 0 0 0 93px;
 	padding: 12px 0 0;
 }
 
-.subscribe-form-label {
-	font-weight: 700;
-	display: block;
-	margin: 0 0 20px 0;
+.subscribe-form {
+	margin: 20px 0 0;
 }
 
 .subscribe-form-input {
@@ -736,6 +734,14 @@ body {
 	align-items: center;
 	margin: 0 0 0 12px;
 	padding: 10px 28px;
+	background-color: var(--accent);
+	color: var(--white);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.06em;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
 
 .subscribe-btn-icon {
